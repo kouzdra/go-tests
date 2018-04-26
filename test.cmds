@@ -1,15 +1,9 @@
-#go-root /
-#go-path "/home/msk/GO/work/go/src/github.com/kouzdra/go-test"
+go-root /
+#go-path "/home/msk/GO/work/go/src/github.com/kouzdra/go-tests"
 load-project
 #find-files "" "" 1000
-analyze "/home/msk/GO/work/go/src/github.com/kouzdra/go-test/test/test.go"
-#analyze "src/github.com/kouzdra/go-test/test/test.go"
-#complete /home/msk/WORK/cf-c/go/src/test/test.go 118
-#complete /home/msk/WORK/cf-c/go/src/test/test.go 119
-#find-files "" system 40
-#changed "/home/msk/WORK/cf-c/go/src/test/test.go" "a" 3 4
-#analyze -n 9 "/home/msk/WORK/cf-c/go/src/test/test.go
-#analyze -n 20 "/home/msk/WORK/cf-c/go/src/analyzer/analyze.go"
-#file-in-project -n 23 "/home/msk/WORK/cf-c/go/src/writer/writer.go"
-#quit
+analyze "$GOPATH/src/github.com/kouzdra/go-tests/test/test.go"
+#analyze "/home/msk/GO/work/go/src/github.com/kouzdra/go-tests/test/test.go"
+#complete "$GOPATH/src/github.com/kouzdra/go-tests/test/test.go" 91
+complete "$GOPATH/src/github.com/kouzdra/go-tests/test/test.go" 92
 
